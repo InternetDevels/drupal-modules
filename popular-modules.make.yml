@@ -1,0 +1,117 @@
+# Popular modules makefile
+
+# Core version
+core: "7.x"
+
+# API version
+api: 2
+
+# Projects
+projects:
+  views:
+    subdir: contrib
+
+  ctools:
+    subdir: contrib
+
+  admin_menu:
+    subdir: contrib
+
+  feeds:
+    subdir: contrib
+
+  date:
+    subdir: contrib
+
+  devel:
+    subdir: contrib
+
+  entity:
+    subdir: contrib
+
+  entityreference:
+    subdir: contrib
+
+  features:
+    subdir: contrib
+
+  features_extra:
+    subdir: contrib
+
+  field_collection:
+    subdir: contrib
+
+  media:
+    subdir: contrib
+
+  libraries:
+    subdir: contrib
+
+  metatag:
+    subdir: contrib
+
+  og:
+    subdir: contrib
+
+  og_workflow:
+    subdir: contrib
+
+  panelizer:
+    subdir: contrib
+
+  panels:
+    subdir: contrib
+
+  panels_breadcrumbs:
+    subdir: contrib
+
+  pathauto:
+    subdir: contrib
+
+  rate:
+    subdir: contrib
+
+  revisioning:
+    subdir: contrib
+
+  rules:
+    subdir: contrib
+
+  search_api:
+    subdir: contrib
+
+  search_api_solr:
+    subdir: contrib
+
+  search_api_multi:
+    subdir: contrib
+
+  strongarm:
+    subdir: contrib
+
+  token:
+    subdir: contrib
+
+  varnish:
+    subdir: contrib
+
+  votingapi:
+    subdir: contrib
+
+  webform:
+    subdir: contrib
+
+  workflow:
+    subdir: contrib
+
+  wysiwyg:
+    subdir: contrib
+
+  services:
+    subdir: contrib
+
+  file_entity:
+    subdir: contrib
+
+  shs:
+    subdir: contrib
