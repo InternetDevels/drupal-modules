@@ -1,0 +1,25 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Communities sites modules set
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  group:
+    subdir: 'contrib/community'
+    description: >
+      The Group module allows you to create arbitrary collections of your content and
+      users on your site and grant access control permissions on those collections
+
+      Group also allows you to create communities. Users of the site can become
+      members of a Group. You can then decide what membership of a Group entitles them to,
+      such as access to content only available to members of that Group.
+      There can also be different levels of membership to a Group so, for example, you can have
+      administrative members who can create content and basic members who can only
+      view content within the Group.

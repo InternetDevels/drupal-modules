@@ -1,0 +1,52 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Administer configurations, their deployment and updates
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  config_update:
+    subdir: 'contrib/configurations'
+    description: >
+      The report module supplements the core Configuration Manager module,
+      by providing a report that allows you to see the differences between
+      the configuration items provided by the current versions of your
+      installed modules, themes, and install profile,
+      and the configuration on your site.
+
+  features:
+    subdir: 'contrib/configurations'
+    description: >
+      If you simply need to export and deploy simple site configuration,
+      the D8 configuration management system should be used instead of Features.
+      You will use Features in D8 to export bundled functionality
+      (like a 'photo gallery feature').
+
+  config_tools:
+    subdir: 'contrib/configurations'
+    description: >
+      Config Tools is a package of modules that help to manage your Drupal 8 configuration files.
+      - Active configuration file handling
+      - Git Configuration
+
+  config_sync:
+    subdir: 'contrib/configurations'
+    description: >
+      Configuration Synchronizer provides methods for safely importing site
+      configuration from updated modules and themes.
+
+  composer_manager:
+    subdir: 'contrib/configurations'
+    description: >
+
+  default_content:
+    subdir: 'contrib/configurations'
+    description: >
+      Default content gives your module and install profile a way to ship default content as well as configuration.
+      Powered by core's serialization, rest and hal modules.

@@ -1,0 +1,24 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Contact form related functionality
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  contact_block:
+    subdir: 'development/contact'
+    description: >
+      The Contact Block module provides contact forms in a block.
+      It uses the contact forms that can be created using the Drupal 8 core Contact module.
+
+  contact_storage:
+    subdir: 'development/contact'
+    description: >
+      Contact Storage module will provide storage for Contact messages which are fully-fledged entities in Drupal 8.
+      This plus core contact module aim to provide functionality equivalent to the base-features of Webform or Entity Form.

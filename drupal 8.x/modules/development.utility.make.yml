@@ -1,0 +1,52 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Helper modules for development process. **SHOULDN'T BE ON PRODUCTION**
+
+defaults:
+  projects:
+    description: >
+
+projects:
+  devel:
+    subdir: 'development/utility'
+    description: >
+      Set of useful modules
+      - Devel
+        Helper functions for Drupal developers
+      - Generate content
+        Quickly generates nodes, comments, terms, users, and more
+      - WebProfiler
+        Add footer to review resource utilization, cache effectiveness, database queries, Views, and so much more
+      - Devel Node Access (DNA)
+        View the node access entries for the node(s) that are shown on a page.
+
+  config_devel:
+    subdir: 'development/utility'
+    description: >
+      Automated import of configuration files into the active storage.
+      Automated export of configuration objects into files.
+
+  masquerade:
+    subdir: 'development/utility'
+    description: >
+      The Masquerade module allows site administrators to switch users and surf the site as that user
+
+  view_modes_display:
+    subdir: 'development/utility'
+    description: >
+      View Modes Display is a helper module to preview view modes for your entities.
+
+  object_log:
+    subdir: 'development/utility'
+    description: >
+      The Object Log module allows developers to store objects,
+      arrays and other variables to a log table so that they may be inspected later
+
+  siteinfo:
+    subdir: 'development/utility'
+    description: >
+      Site Info is a module which displays site related information by simply installing it.

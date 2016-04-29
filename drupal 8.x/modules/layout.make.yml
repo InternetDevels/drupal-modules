@@ -1,0 +1,40 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Layots managements
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  ds:
+    subdir: 'contrib/layout'
+    description: >
+      Display Suite allows you to take full control over how your
+      content is displayed using a drag and drop interface.
+
+  styles_api:
+    subdir: 'contrib/layout'
+    description: >
+      This module allows other modules or themes to register theme templates on a YAML file
+      (replacing hook_theme()) and provide a repository for all themes registered.
+
+  layout_plugin:
+    subdir: 'contrib/layout'
+    description: >
+      Allows modules or themes to register layouts by simply providing a YAML file
+      and some templates, and for other modules to list the available layouts and render them.
+
+  page_manager:
+    subdir: 'contrib/layout'
+    description: >
+      This is the Drupal 8 version of Page Manager, formerly part of the CTools
+
+  panels:
+    subdir: 'contrib/layout'
+    description: >
+      The Panels module allows a site administrator to create customized layouts for multiple uses

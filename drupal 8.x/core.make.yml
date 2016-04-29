@@ -1,0 +1,23 @@
+api: 2
+
+core: '8.x'
+description: 'Drupal core and patches'
+
+defaults:
+  projects:
+    subdir: 'contrib'
+    translations: {}
+
+projects:
+  drupal:
+    type: 'core'
+    version: '8.1.0'
+    patch:
+      - url: 'https://www.drupal.org/files/issues/add_a_startup-1543858-58.patch'
+        issue: 1543858
+        description: >
+          Add a startup configuration for the built-in PHP server that supports clean URLs
+      - url: 'https://www.drupal.org/files/issues/core-js-ajax-views-2700495-5.patch'
+        issue: 2700495
+        description: >
+          Method removing expired drupalSettings.ajax tries to remove settings when there is no ajax defined

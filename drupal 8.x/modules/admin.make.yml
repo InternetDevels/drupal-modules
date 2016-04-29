@@ -1,0 +1,37 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Modules, which will help with administration routines:
+  - faster access to the elements
+  - better configuration
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  coffee:
+    subdir: 'contrib/admin'
+    description: >
+      Coffee helps you navigate by keyboard in Drupal. Pressing Alt+d brings up a search box.
+
+  admin_toolbar:
+    subdir: 'contrib/admin'
+    description: >
+      Admin Toolbar intends to improve the default Drupal Toolbar to transform it into a
+      drop-down menu, providing a fast a full access of all the administration links.
+
+  monitoring:
+    subdir: 'contrib/admin'
+    description: >
+      It provides a 360 degree perspective on Drupal system health.
+
+  views_system:
+    subdir: 'contrib/admin'
+    description: >
+      The Views System module extends the Views module and allows to create customized
+      lists (pages, blocks) of modules, themes, and theme engines that are or have been
+      installed in Drupal's file system.

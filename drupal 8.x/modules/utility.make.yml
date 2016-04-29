@@ -1,0 +1,36 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  advanced_help:
+    subdir: 'contrib/utility'
+    description: >
+
+  ctools:
+    subdir: 'contrib/utility'
+    description: >
+
+  token:
+    subdir: 'contrib/utility'
+    description: >
+
+  special_menu_items:
+    subdir: 'contrib/utility'
+    description: >
+      Special menu items is a Drupal module that provides placeholder and separator menu items
+
+  diff:
+    subdir: 'contrib/utility'
+    description: >
+      The tab shows all revisions like standard Drupal but it also allows pretty
+      viewing of all added/changed/deleted words between revisions.
+
+

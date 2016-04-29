@@ -1,0 +1,28 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  metatag:
+    subdir: 'contrib/seo'
+    descrption: >
+
+  redirect:
+    subdir: 'contrib/seo'
+    descrption: >
+
+  pathauto:
+    subdir: 'contrib/seo'
+    descrption: >
+
+  simple_sitemap:
+    subdir: 'contrib/seo'
+    descrption: >
+      This module aims to be a replacement for the currently broken xmlsitemap module for Drupal 8.

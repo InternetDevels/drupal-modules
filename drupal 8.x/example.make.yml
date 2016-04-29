@@ -1,0 +1,26 @@
+api: 2
+
+core: '8.x'
+
+defaults:
+  projects:
+    overwrite: TRUE
+
+includes:
+  - 'core.make.yml'
+  
+  - 'modules/admin.make.yml'
+  - 'modules/configurations.make.yml'
+  - 'modules/development.utility.make.yml'
+  - 'modules/geo.make.yml'
+  - 'modules/migrate.make.yml'
+  - 'modules/services.make.yml'
+  - 'modules/tools.make.yml'
+  - 'modules/community.make.yml'
+  - 'modules/contact.make.yml'
+  - 'modules/development.validation.make.yml'
+  - 'modules/layout.make.yml'
+  - 'modules/seo.make.yml'
+  - 'modules/social.make.yml'
+  - 'modules/utility.make.yml'
+

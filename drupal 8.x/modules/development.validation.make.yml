@@ -1,0 +1,51 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Coding quality
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  coder:
+    subdir: 'development/validation'
+    description: >
+      Coder checks your Drupal code against coding standards and other best practices.
+      It can also fix coding standard violations for you with the
+      phpcbf command from PHP_CodeSniffer
+
+  w3c_validator:
+    subdir: 'development/validation'
+    description: >
+      W3C Validator provides a Drupal interface to use the W3C Markup Validator.
+
+  be_sure:
+    subdir: 'development/validation'
+    description: >
+      The module provides three differents dashboards,
+      where administrator can check status about SEO, performance or
+      security parts of site.
+
+  hacked:
+    subdir: 'development/validation'
+    description: >
+      This module scans the currently installed Drupal, contributed modules and
+      themes, re-downloads them and determines if they have been changed.
+      Changes are marked clearly and if the diff module is installed then Hacked!
+      will allow you to see the exact lines that have changed.
+
+  site_audit:
+    subdir: 'development/validation'
+    description: >
+      Site Audit is a Drupal static site analysis platform that generates reports
+      with actionable best practice recommendations.
+
+  security_review:
+    subdir: 'development/validation'
+    description: >
+      The Security Review module automates testing for many of the easy-to-make
+      mistakes that render your site insecure.

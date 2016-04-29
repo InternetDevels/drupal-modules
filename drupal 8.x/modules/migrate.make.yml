@@ -1,0 +1,41 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Migration
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+# !!! Note, this module does not yet work with Drupal 8.1, see https://drupal.org/node/2677198
+#  # This module provides a UI on top of the Migration entities in core.
+#  migrate_ui:
+#    type: 'module'
+#    version: '~'
+
+  migrate_plus:
+    subdir: 'contrib/migrate'
+    description: >
+      Extends the core migration framework with additional functionality.
+      Currently that includes a MigrationGroup configuration entity for grouping
+      migrations, and a PREPARE_ROW event to make it easier to respond to
+      and manipulate incoming source data.
+
+  migrate_tools:
+    subdir: 'contrib/migrate'
+    description: >
+      General-purpose drush commands and basic UI for managing migrations.
+
+  migrate_upgrade:
+    subdir: 'contrib/migrate'
+    description: >
+      Drush commands for running upgrades from Drupal 6 or 7 to Drupal 8.
+
+  migrate_manifest:
+    subdir: 'contrib/migrate'
+    descritpion: >
+      Drush command for running template-based SQL migrations from a manifest file.

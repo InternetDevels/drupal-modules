@@ -1,0 +1,21 @@
+api: 2
+core: '8.x'
+includes:
+  - '../core.make.yml'
+
+description: >
+  Geolocation amd maps
+
+defaults:
+  projects:
+    description: 'undescribed modules'
+
+projects:
+  address:
+    subdir: 'contrib/geo'
+    description: >
+      Provides functionality for storing, validating and displaying international postal addresses.
+
+  geolocation:
+    subdir: 'contrib/geo'
+    description: >
