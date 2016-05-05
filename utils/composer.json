@@ -1,0 +1,25 @@
+{
+  "name": "idevels/drupal-modules",
+  "description": "Utility application to generate documentation on modules sets",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Pavel Makhrinsky",
+      "email": "p.makhrinsky@internetdevels.com",
+      "homepage": "http://internetdevels.com/",
+      "role": "Creator"
+    }
+  ],
+  "require": {
+    "symfony/yaml": "~3",
+    "symfony/config": "~3",
+    "symfony/finder": "~3"
+  },
+  "bin": ["bin/drupal-modules"],
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "autoload": {
+    "psr-4": {"Drupal\\Modules\\": "src"}
+  }
+}
