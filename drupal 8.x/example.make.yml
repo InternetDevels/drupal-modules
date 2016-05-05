@@ -1,6 +1,8 @@
 api: 2
 
 core: '8.x'
+description: 'Example make file. You may use it as basic make file for your project.'
+
 
 defaults:
   projects:
